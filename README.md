@@ -1,4 +1,7 @@
-# test coverage for  [egg (v1.1.0)](https://github.com/eggjs/egg)  [![npm package](https://img.shields.io/npm/v/npmtest-egg.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-egg) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-egg.svg)](https://travis-ci.org/npmtest/node-npmtest-egg)
+# npmtest-egg
+
+#### basic test coverage for  [egg (v1.1.0)](https://github.com/eggjs/egg)  [![npm package](https://img.shields.io/npm/v/npmtest-egg.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-egg) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-egg.svg)](https://travis-ci.org/npmtest/node-npmtest-egg)
+
 #### A web framework's framework for Node.js
 
 [![NPM](https://nodei.co/npm/egg.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/egg)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-egg/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-egg/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-egg/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-egg/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-egg/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-egg/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-egg/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-egg/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-egg/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-egg/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-egg/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-egg/build/coverage.html/index.html)
 
@@ -170,7 +173,8 @@
         "test": "npm run lint -- --fix && npm run test-local",
         "test-local": "egg-bin test"
     },
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
